@@ -5,7 +5,7 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 nvm install v11.10.0
 nvm use v11.10.0
 npm i -g npm
-npm i create-react-app yarn
+npm i -g create-react-app yarn
 
 sudo apt-get install -y python3 python3-pip
 sudo python3 -m pip install pip
