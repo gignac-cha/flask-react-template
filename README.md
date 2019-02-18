@@ -56,7 +56,7 @@ $ sudo python3 -m pip install pip
 * See here: http://flask.pocoo.org/
 
 ##### Using `requirements.txt`
-* See [requirements.txt](requirements)
+* See [requirements.txt](requirements.txt)
 ```bash
 $ sudo pip3 install -r requirements.txt
 ```
