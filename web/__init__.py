@@ -9,6 +9,15 @@ def index():
   return server.send_static_file("index.html")
 
 
+@server.route("/api/v1/tests")
+def _get_api_tests():
+  def _generate_test_data():
+    for i in range(10):
+      yield dict(value=i)
+  tests = list(_generate_test_data())
+  return flask.jsonify(error=False, tests=tests)
+
+
 if __name__ == "__main__":
   server.run()
 
