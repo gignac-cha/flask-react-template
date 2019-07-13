@@ -4,15 +4,16 @@ Flask w/ React Template
 ## Environments
 
 ### Python Flask
-* `python==3.7.2`
-* `Flask==1.0.2`
+* `python==3.7.3`
+* `Flask==1.1.1`
 
 ### Node.js React
 * `nvm 0.34.0`
-* `node v11.10.0`
-* `npm@6.8.0`
-* `yarn@1.13.0`
-* `create-react-app@2.1.5`
+* `node v12.6.0`
+* `npm@6.10.1`
+* `yarn@1.17.3`
+* `create-react-app@3.0.1`
+* `react@16.8.6`
 
 ## Usage
 
@@ -34,8 +35,8 @@ $ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 #### Install Node.js
 ```bash
-$ nvm install v11.10.0
-$ nvm use v11.10.0
+$ nvm install v12.6.0
+$ nvm use v12.6.0
 $ npm i -g npm
 ```
 
