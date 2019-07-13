@@ -10,7 +10,7 @@ def index():
 
 
 @server.route("/api/v1/tests")
-def _get_api_tests():
+def _api_get_tests():
   def _generate_test_data():
     for i in range(10):
       yield dict(value=i)
